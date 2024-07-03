@@ -26,25 +26,6 @@ function ryangosling() {
 // '10' - значение, которое возвращается из функции.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Task 6: Объявите функцию ryangosling, которая принимает один параметр и возвращает его.
 function ryangosling(param) {
   return param; 
@@ -73,6 +54,13 @@ function ryangosling(param) {
   return String(param);
 }
 // 'String(param)' - преобразует параметр в строку и возвращает её.
+
+
+
+
+
+
+
 
 
 // Усложнение заданий (11-20):
