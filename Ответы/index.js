@@ -1,9 +1,9 @@
 // Task 1: Объявите переменную ryangosling.
-let ryangosling;
+let ryangosling; 
 // 'let' - обязательное ключевое слово для объявления переменной.
 
 // Task 2: Объявите переменную ryangosling и присвойте ей значение 10.
-let ryangosling = 10;
+let ryangosling = 10; 
 // 'let' - обязательное ключевое слово для объявления переменной.
 // '=' - оператор присваивания значения переменной.
 
@@ -20,14 +20,14 @@ function ryangosling(param) {}
 
 // Task 5: Объявите функцию ryangosling, которая возвращает число 10.
 function ryangosling() {
-  return 10;
+  return 10; 
 }
 // 'return' - обязательное ключевое слово для возврата значения из функции.
 // '10' - значение, которое возвращается из функции.
 
 // Task 6: Объявите функцию ryangosling, которая принимает один параметр и возвращает его.
 function ryangosling(param) {
-  return param;
+  return param; 
 }
 // 'param' - имя параметра, которое передается в функцию.
 // 'return param' - возвращает значение параметра.
@@ -54,59 +54,60 @@ function ryangosling(param) {
 }
 // 'String(param)' - преобразует параметр в строку и возвращает её.
 
+
 // Усложнение заданий (11-20):
 
 // Task 11: Объявите функцию-выражение ryangosling.
-const ryangosling = function () {};
+const ryangosling = function() {};
 // 'const' - ключевое слово для объявления константы.
 // 'function()' - объявление анонимной функции (без имени).
 
 // Task 12: Объявите функцию-выражение ryangosling, которая принимает один параметр.
-const ryangosling = function (param) {};
+const ryangosling = function(param) {};
 // 'param' - имя параметра, которое принимает функция.
 
 // Task 13: Объявите функцию-выражение ryangosling, которая возвращает число 20.
-const ryangosling = function () {
+const ryangosling = function() {
   return 20;
 };
 // 'return 20' - возвращает число 20.
 
 // Task 14: Объявите функцию-выражение ryangosling, которая принимает один параметр и возвращает его.
-const ryangosling = function (param) {
+const ryangosling = function(param) {
   return param;
 };
 // 'return param' - возвращает значение параметра.
 
 // Task 15: Объявите функцию-выражение ryangosling, которая принимает два параметра.
-const ryangosling = function (param1, param2) {};
+const ryangosling = function(param1, param2) {};
 // 'param1', 'param2' - имена параметров, которые принимает функция.
 
 // Task 16: Объявите функцию-выражение ryangosling, которая принимает два параметра и возвращает их сумму.
-const ryangosling = function (param1, param2) {
+const ryangosling = function(param1, param2) {
   return param1 + param2;
 };
 // 'param1 + param2' - выражение, которое складывает два параметра и возвращает результат.
 
 // Task 17: Объявите функцию-выражение ryangosling, которая принимает два параметра и возвращает их разность.
-const ryangosling = function (param1, param2) {
+const ryangosling = function(param1, param2) {
   return param1 - param2;
 };
 // 'param1 - param2' - выражение, которое вычитает второй параметр из первого и возвращает результат.
 
 // Task 18: Объявите функцию-выражение ryangosling, которая принимает один параметр и возвращает его в квадрате.
-const ryangosling = function (param) {
+const ryangosling = function(param) {
   return param * param;
 };
 // 'param * param' - выражение, которое возводит параметр в квадрат и возвращает результат.
 
 // Task 19: Объявите функцию-выражение ryangosling, которая принимает один параметр и возвращает его как строку.
-const ryangosling = function (param) {
+const ryangosling = function(param) {
   return String(param);
 };
 // 'String(param)' - преобразует параметр в строку и возвращает её.
 
 // Task 20: Объявите функцию-выражение ryangosling, которая принимает один параметр и возвращает тип этого параметра.
-const ryangosling = function (param) {
+const ryangosling = function(param) {
   return typeof param;
 };
 // 'typeof param' - оператор, который возвращает тип параметра.
@@ -157,7 +158,7 @@ function ryangosling(str) {
 
 // Task 28: Объявите функцию ryangosling, которая принимает строку и возвращает её задом наперёд.
 function ryangosling(str) {
-  return str.split("").reverse().join("");
+  return str.split('').reverse().join('');
 }
 // 'str.split('')' - метод строки, который разбивает строку на массив символов.
 // 'reverse()' - метод массива, который переворачивает массив.
@@ -203,31 +204,31 @@ function ryangosling(arr) {
 
 // Task 35: Объявите функцию ryangosling, которая принимает массив и возвращает массив с удвоенными значениями.
 function ryangosling(arr) {
-  return arr.map((x) => x * 2);
+  return arr.map(x => x * 2);
 }
 // 'arr.map(x => x * 2)' - метод массива, который создает новый массив с удвоенными значениями.
 
 // Task 36: Объявите функцию ryangosling, которая принимает массив и возвращает массив только с чётными значениями.
 function ryangosling(arr) {
-  return arr.filter((x) => x % 2 === 0);
+  return arr.filter(x => x % 2 === 0);
 }
 // 'arr.filter(x => x % 2 === 0)' - метод массива, который создает новый массив с только чётными значениями.
 
 // Task 37: Объявите функцию ryangosling, которая принимает массив строк и возвращает массив строк в верхнем регистре.
 function ryangosling(arr) {
-  return arr.map((str) => str.toUpperCase());
+  return arr.map(str => str.toUpperCase());
 }
 // 'arr.map(str => str.toUpperCase())' - метод массива, который создает новый массив строк в верхнем регистре.
 
 // Task 38: Объявите функцию ryangosling, которая принимает массив строк и возвращает массив строк в нижнем регистре.
 function ryangosling(arr) {
-  return arr.map((str) => str.toLowerCase());
+  return arr.map(str => str.toLowerCase());
 }
 // 'arr.map(str => str.toLowerCase())' - метод массива, который создает новый массив строк в нижнем регистре.
 
 // Task 39: Объявите функцию ryangosling, которая принимает массив строк и возвращает массив строк с добавлением "!" в конец каждой строки.
 function ryangosling(arr) {
-  return arr.map((str) => str + "!");
+  return arr.map(str => str + '!');
 }
 // 'arr.map(str => str + '!')' - метод массива, который создает новый массив строк с добавлением "!" в конец каждой строки.
 
@@ -247,7 +248,7 @@ function ryangosling(arr) {
 
 // Task 42: Объявите функцию ryangosling, которая принимает массив строк и возвращает их объединение в одну строку через запятую.
 function ryangosling(arr) {
-  return arr.join(", ");
+  return arr.join(', ');
 }
 // 'arr.join(', ')' - метод массива, который объединяет все элементы массива в одну строку через запятую.
 
@@ -265,13 +266,13 @@ function ryangosling(arr) {
 
 // Task 45: Объявите функцию ryangosling, которая принимает массив чисел и возвращает количество чётных чисел.
 function ryangosling(arr) {
-  return arr.filter((x) => x % 2 === 0).length;
+  return arr.filter(x => x % 2 === 0).length;
 }
 // 'arr.filter(x => x % 2 === 0).length' - метод массива, который возвращает количество чётных чисел.
 
 // Task 46: Объявите функцию ryangosling, которая принимает массив чисел и возвращает количество нечётных чисел.
 function ryangosling(arr) {
-  return arr.filter((x) => x % 2 !== 0).length;
+  return arr.filter(x => x % 2 !== 0).length;
 }
 // 'arr.filter(x => x % 2 !== 0).length' - метод массива, который возвращает количество нечётных чисел.
 
@@ -289,13 +290,13 @@ function ryangosling(arr) {
 
 // Task 49: Объявите функцию ryangosling, которая принимает массив строк и возвращает самую длинную строку.
 function ryangosling(arr) {
-  return arr.reduce((a, b) => (a.length > b.length ? a : b));
+  return arr.reduce((a, b) => a.length > b.length ? a : b);
 }
 // 'arr.reduce((a, b) => a.length > b.length ? a : b)' - метод массива, который возвращает самую длинную строку.
 
 // Task 50: Объявите функцию ryangosling, которая принимает массив строк и возвращает самую короткую строку.
 function ryangosling(arr) {
-  return arr.reduce((a, b) => (a.length < b.length ? a : b));
+  return arr.reduce((a, b) => a.length < b.length ? a : b);
 }
 // 'arr.reduce((a, b) => a.length < b.length ? a : b)' - метод массива, который возвращает самую короткую строку.
 
