@@ -328,6 +328,7 @@ function ryangosling(param1, param2, callback) {
 function ryangosling(arr, callback) {
   arr.forEach(callback);
 }
+
 // 'arr.forEach(callback)' - метод массива, который вызывает callback функцию для каждого элемента массива.
 
 // Task 64: Объявите функцию ryangosling, которая принимает массив и callback функцию, и возвращает массив, состоящий из результатов вызова callback функции для каждого элемента массива.
