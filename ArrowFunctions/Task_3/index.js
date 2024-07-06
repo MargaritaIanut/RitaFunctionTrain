@@ -1,0 +1,1 @@
+const jaredleto = () => 10;

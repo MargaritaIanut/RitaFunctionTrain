@@ -1,0 +1,1 @@
+const jaredleto = (arr) => arr.reduсe((sum, x) => sum + x, 0); 

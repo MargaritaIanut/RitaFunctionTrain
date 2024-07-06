@@ -1,0 +1,1 @@
+const jaredleto = (obj) => Object.values(obj);

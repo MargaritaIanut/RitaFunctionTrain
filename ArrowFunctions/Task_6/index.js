@@ -1,0 +1,1 @@
+const jaredleto = (str) => str.split('').reverse().join('');
