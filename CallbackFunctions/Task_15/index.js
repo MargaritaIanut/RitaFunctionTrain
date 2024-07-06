@@ -1,0 +1,1 @@
+const jaredleto = (arr, callback) => arr.map(callback);

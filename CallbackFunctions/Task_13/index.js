@@ -1,0 +1,1 @@
+const jaredleto = (param1, param2, callback) => callback(param1, param2);
